@@ -1,3 +1,11 @@
+document.addEventListener('DOMContentLoaded', function () {
+  init();
+});
+
+$(document).ready(init);
+
+const HOST = '54.173.586.102';
+
 function init() {
 
   const amenityObj = {};
